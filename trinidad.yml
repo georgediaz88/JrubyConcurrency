@@ -1,9 +1,9 @@
 environment: 'production' # environment gets inherited for each application
 web_apps:
   default: # context path is '/' (running at http://localhost:3000/)
-    web_app_dir: '/Users/gdiaz/projects/opt/trinidad/thing1'
+    web_app_dir: '/Users/gdiaz/projects/opt/JrubyConcurrency/thing1'
   thing2:   # context path is '/thing2' (root at http://localhost:3000/thing2)
-    web_app_dir: '/Users/gdiaz/projects/opt/trinidad/thing2'
+    web_app_dir: '/Users/gdiaz/projects/opt/JrubyConcurrency/thing2'
 
 #TODO: share jdbc database configuration; test concurrency
 #run: trinidad -f trinidad.yml
